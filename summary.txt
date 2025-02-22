@@ -1,0 +1,5 @@
+1. Three Distinct Designs with Effects:
+2. Hamburger Menu Integration
+3. Carousel for Enhanced Design
+4. Figma Design with Components
+Figma Link: https://www.figma.com/design/CFXzYAzPEoLFm6EcXCj0eH/Practical-Final-FIGMA?node-id=0-1&node-type=canvas&t=tfi5m7rHiHtTwMcb-0

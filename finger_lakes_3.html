@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi_Shirsekar's Final Practical</title>
+    <link rel="stylesheet" href="styles/styles_3.css">
+</head>
+<body>
+    <header>
+        <h1>Explore the Finger Lakes Region</h1>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="finger_lakes_2.html">Discover More</a></li>
+                <li><a href="finger_lakes_3.html">Explore Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+<div class="carousel">
+    <div class="carousel-inner">
+        <img src="images/carousel-img2.jpg" alt="Carousel Image 2" class="active">
+        <img src="images/carousel-img6.jpg" alt="Carousel Image 6">
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+</div>
+
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Welcome to the Finger Lakes, a stunning region in New York known for its serene beauty and endless attractions. The area features 11 long, narrow lakes that resemble fingers, giving the region its unique name. Known for its breathtaking natural scenery, charming towns, and award-winning wineries, the Finger Lakes attract visitors year-round. Whether you’re a nature lover or a cultural enthusiast, the Finger Lakes have something for everyone. From relaxing boat rides to adventurous hikes, this region offers countless ways to explore and unwind.</p>
+            <img 
+                src="images/brian-tafel-3ktyUGus5zU-unsplash.jpg" 
+                srcset="images/overview-1600px.jpg 1600w,
+                        images/overview-1200px.jpg 1200w"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                alt="Canoeing on a serene lake">
+        </section>
+
+        <section id="history">
+            <h2>History</h2>
+            <p>The Finger Lakes region has a rich and fascinating history that dates back centuries. It was originally home to the Haudenosaunee (Iroquois Confederacy) tribes who named the lakes. In the 19th century, the region became a hub for the abolitionist movement and women's suffrage. Its cultural heritage continues to influence the local identity, with landmarks and museums dedicated to preserving these stories. Walking through its towns, you can still feel the echoes of its historical significance intertwined with modern progress.</p>
+            <img 
+                src="images/luke-hodde-Jy6wIGmbGk0-unsplash.jpg" 
+                srcset="images/history-1600px.jpg 1600w,
+                        images/history-1200px.jpg 1200w"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                alt="Vineyard in Finger Lakes">
+        </section>
+
+        <section id="environment">
+            <h2>Geology</h2>
+            <p>The Finger Lakes are a testament to the beauty of nature shaped over millennia. These glacially carved lakes are surrounded by rolling hills, waterfalls, and gorges. The region is a haven for outdoor activities like hiking, fishing, and kayaking. Its diverse flora and fauna make it an ecological treasure, offering breathtaking views and a serene escape for visitors. From Watkins Glen's famous waterfalls to the tranquil shores of Seneca Lake, every corner of the Finger Lakes reveals a new natural wonder to explore.</p>
+            <img 
+                src="images/New_York_-_Finger_Lakes_region_map_with_road_shields.svg.png" 
+                srcset="images/newyork22.png 1600w,
+                        images/newyork-1200px.png 1200w,
+                        images/newyork-2000px.png 2000w"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                alt="Map of Finger Lakes region">
+        </section>
+
+        <section id="culture">
+            <h2>Events</h2>
+            <p>The Finger Lakes region is alive with culture and community events throughout the year. Attend wine festivals and enjoy tastings at world-renowned wineries, or explore vibrant farmers' markets. Art enthusiasts can visit galleries and museums, while adventure seekers can take part in seasonal activities like skiing or boating. The region also hosts unique events like hot air balloon festivals and lakefront concerts, ensuring there’s always something happening. Whether you’re seeking a peaceful retreat or an exciting outing, the Finger Lakes have it all.</p>
+            <img 
+                src="images/ty-finck-UBJpFMHgeI0-unsplash.jpg" 
+                srcset="images/events-1600px.jpg 1600w,
+                        images/events-1200px.jpg 1200w" 
+                sizes="(max-width: 768px) 100vw, 50vw"
+                alt="Colorful street in the Finger Lakes region">
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Vaishnavi Shirsekar, December 7, 2024</p>
+        <p>Image Credits: Brian Tafel, Luke Hodde, Map of Finger Lakes, Ty Finck, bsr</p>
+        <p><a href="https://fingerlakesinvasives.org/finger-lakes-region/" target="_blank" rel="noopener noreferrer">References</a></p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('nav-active');
+        }
+    </script>
+
+    <script src="js/carousel.js"></script>
+</body>
+</html>
